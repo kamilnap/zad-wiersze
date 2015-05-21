@@ -701,6 +701,14 @@ public function goscwdomuAction()
     return $this->render('default/gosc-w-domu.html.twig');
 }
 
+/**
+ * @Route("/adam.html", name="adam")
+ */
+public function adamAction()
+{
+    return $this->render('default/adam.html.twig');
+}
+
 /*
 * BR
 */
